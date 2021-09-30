@@ -14,7 +14,7 @@ args = parser.parse_args()
 save_path = args.save_path
 
 def checkpoint_path(step):
-    return join(WEIGHTS_PATH, "step_{:02d}".format(step), "UNet_weights_step_{:02d}_v1.pt".format(step))
+    return join(WEIGHTS_PATH, "step_{:02d}".format(step), "UNet_weights_step_{:02d}_v2.pt".format(step))
 
 rows = []
 for step in range(20):

@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
     # todo: specify checkpoint location, depending on config import
 
-    checkpoint_path_1 = os.path.join(WEIGHTS_PATH, "step_{:02d}".format(step), "UNet_weights_step_{:02d}_v1.pt")
+    checkpoint_path_1 = os.path.join(WEIGHTS_PATH, "step_{:02d}".format(step), "UNet_weights_step_{:02d}_v2.pt")
 
     deb_1 = get_deblurrer(step, checkpoint_path_1, device=device)
     for i, file in enumerate(files):

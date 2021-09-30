@@ -67,9 +67,9 @@ This should run on a GPU if there is one available and on the CPU otherwise.
 
 ## Examples
 
-To verify that everything is working correctly we provide example reconstructions of a text image and a "sanity check" image. Both were held back and not seen by the network during training.
+To verify that everything is working correctly we provide example reconstructions of a text image and a "sanity check" image. Both were held back and not seen by the network during training. The "sanity check" has an artifact of our forward model simulation in the center. This will not happen for real data.
 
-![Example text reconstructions for all blur levels][example_img_text]
+![Example text reconstructions for all blur levels](./deblur_example.png)
 ![Example image reconstructions for all blur levels](./san_example.png)
 
 ## Acknowledgements
